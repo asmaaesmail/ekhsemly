@@ -302,7 +302,7 @@ li.navbar-effect a::after {
     width: 0;
     transform: scale(0);
     height: 2px;
-    background-image: linear-gradient(55deg, #00c6fb, #005bea);
+    background-image:linear-gradient(55deg, #301258, #ffe9a0);
     bottom: 10px;
     transition: all .4s ease-in-out
 }
@@ -1206,6 +1206,13 @@ a:hover {
 .aligne-right{
     text-align: right !important
 }
+
+@media (max-width: 600px){
+    .fixd-navbar{
+        position: relative
+    }
+}
+
 /* =========================================== */
 /* ========sec1========== */
 /* =========================================== */
@@ -1436,9 +1443,19 @@ p.title_top {
     }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1100px){
    .flex-head{
-    margin-top: -70px
+    margin-top: -100px
+}
+}
+
+@media (min-height: 1366px), (min-width: 1024px) {
+    
+    
+    .header-1 {
+    height: auto;
+    position: relative;
+    overflow: hidden;
 }
 }
 /* =========================================== */
@@ -2001,6 +2018,18 @@ section#sec3 {
     .mt-s{
         margin-top: 30px !important
     }
+}
+
+
+@media (min-height: 1366px), (min-width: 1024px) {
+    
+    
+    .row.clearfix {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
 /**************footer& download*****************************/
 
