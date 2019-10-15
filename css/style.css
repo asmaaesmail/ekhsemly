@@ -1210,7 +1210,7 @@ a:hover {
 /* ========sec1========== */
 /* =========================================== */
 section#sec1 {
-    padding-top: 130px;
+    padding-top: 110px;
     text-align: right
 }
 
@@ -1436,7 +1436,11 @@ p.title_top {
     }
 }
 
-
+@media (min-width: 1200px){
+   .flex-head{
+    margin-top: -70px
+}
+}
 /* =========================================== */
 
 
@@ -1875,11 +1879,11 @@ section#sec3 {
 		margin-right: 33.3%
 	}
 }
-@media (min-width: 1200px){
+/*@media (min-width: 1200px){
 	.outer .right-column{
 		margin-left: 33.3%
 	}
-}
+}*/
 @media only screen and (max-width: 1200px){
 	.what-we-do .outer .inner-circle{
 		display:none;	
