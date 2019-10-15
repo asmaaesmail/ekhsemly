@@ -1458,6 +1458,10 @@ p.title_top {
     overflow: hidden;
 }
 }
+
+img.center-block {
+    width: 307px;
+}
 /* =========================================== */
 
 
@@ -2030,6 +2034,13 @@ section#sec3 {
     align-items: center;
     justify-content: center;
 }
+}
+img.phone {
+    width: 144px;
+    height: 434px;
+}
+.what-we-do .outer .phone {
+    width: auto;
 }
 /**************footer& download*****************************/
 
